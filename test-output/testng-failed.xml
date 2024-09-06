@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Guru99 Insurance Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="UI Tests(failed)">
+    <classes>
+      <class name="com.example.tests.Edit_Profile">
+        <methods>
+          <include name="testEditProfileWithValidData"/>
+          <include name="teardown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.example.tests.Edit_Profile -->
+      <class name="com.example.tests.RetrieveQutotation">
+        <methods>
+          <include name="requestAndVerifyQuotation"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.example.tests.RetrieveQutotation -->
+    </classes>
+  </test> <!-- UI Tests(failed) -->
+</suite> <!-- Failed suite [Guru99 Insurance Automation Suite] -->

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Guru99 Insurance Automation Suite">
+  <test name="UI Tests">
+  <classes>
+     <class name="com.example.tests.BaseTest"/>
+  
+   <class name="com.example.tests.HomePageTest"/>
+    <class name="com.example.tests.UserRegistrationTest"/> 
+    <class name="com.example.tests.LoginPage"/>
+     <class name="com.example.tests.QuoteRequestTest"/>
+     <class name="com.example.tests.Claim_Management"/>
+      <class name="com.example.tests.RetrieveQutotation"/>
+     <class name="com.example.tests.Edit_Profile"/>
+      <class name="com.example.test.Payment"/>
+            <class name="com.example.test.ResponsiveTest"/>
+      
+     
+     
+     
+     
+      
+     <!-- Add other test classes as needed -->
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
